@@ -97,6 +97,7 @@ class Client:
                     "User-Agent": _USER_AGENT,
                     "Content-type": "application/json",
                     "Authorization": self._key,
+                    "apikey": self._key,
                 },
                 "timeout": self._timeout,
             }
