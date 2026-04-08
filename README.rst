@@ -97,6 +97,9 @@ To install the latest and greatest from source::
 
    	pip install git+git://github.com/GIScience/openrouteservice-py@development
 
+To install the Deploily version::
+
+    pip3 install git+https://github.com/deploily/openrouteservice-py@deploily
 
 
 Testing
